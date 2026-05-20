@@ -21,7 +21,7 @@ document.addEventListener("keydown",function(tecla){
     else if(tecla.key === "d" || tecla.key === "ArrowRight"){
         mover ("direita")
     }
-    else if(tecla.key === "w" || tecla.key === "ArrowUP"){
+    else if(tecla.key === "w" || tecla.key === "ArrowUp"){
         mover ("cima")
     }
     else if(tecla.key === "s" || tecla.key === "ArrowDown"){
