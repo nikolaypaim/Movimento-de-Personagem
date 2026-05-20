@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movimento Personagem</title>
+    <link rel="shortcut icon" href="https://i.postimg.cc/rwSd6qSD/favicon-quadrados.png" type="image/png">
+    <style>
+        #personagem
+        {
+            width: 50px;
+            height: 50px;
+            background-color: red;
+            position: absolute;
+            left: 375px;
+            top: 275px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Movimento Personagem</h1>
+    <p>Utilize as teclas WASD, Setas do teclado ou os botões abaixo para mover o personagem</p>
+    <div id="personagem"></div>
+    <button onclick="mover('esquerda')">Esquerda</button>
+    <button onclick="mover('direita')">Direita</button>
+    <button onclick="mover('cima')">Cima</button>
+    <button onclick="mover('baixo')">Baixo</button>
+    <script src="main.js"></script>
+</body>
+</html>
